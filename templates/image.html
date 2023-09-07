@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>註冊頁面</title>
+  </head>
+
+    <body>
+     <center>
+            <div class='cont' style="font-family:cursive;background-color:#FFBB73;">
+                <h2>xxx Cat and Dog Detector xxx</h2>
+				<p>show your pets I can identify them</p>
+            </div>
+            <img src="https://cn.readersdigest.asia/wp-content/uploads/sites/4/2019/10/GettyImages-1168451046-11111111-768x320.jpg"   >
+
+        <form method="POST" action="{{url_for('register')}}" enctype="multipart/form-data"  style="background-color:rgb(211,211,211)">
+			<label class="btn btn-info">
+			<input id="upload_img"  name="image" class='btn' style="display:none;" type="file">
+			<i class="fa fa-photo"></i> 上傳圖片
+			</label>
+            <br>
+
+            <input type="submit" class='btn'>
+
+
+        </form>
+
+
+
+        </center>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="static/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div class='cont' style="background-color:#FFBB73;font-family:cursive">
+                
+            
+            {% if data[1] > 0.50 %}
+            <h1>Result:DOG</h1>
+            <embed src="http://pcnet.idv.tw/midi/First Lov.mid" autostart=true hidden=true>
+            {%else%}
+            <h1>Result:CAT</h1>
+            
+            {%endif%}
+
+        </div>
+         <div style="font-family:cursive;background-color:rgb(211,211,211)">
+            <h1>acc<br> cat: <span>{{data[2]}}%</span> <br>dog: <span>{{data[3]}}%</span><br> </h1 >
+            
+            <img src="{{url_for('load_img')}}" alt='img'>
+            <a href="/" class='btn'>go back</a>
+         </div>
+        </center>
+        
+    </body>
+</html>
