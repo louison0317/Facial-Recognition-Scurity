@@ -21,11 +21,11 @@ This is a comprehensive and practical facial recognition access control system, 
 
 * Technological Applications:
 
-1. `Facial Feature Extraction`: Utilizing dlib to extract facial features, which is an advanced facial recognition library.
-2. `Image Processing`: Using OpenCV for image processing, which is a powerful open-source computer vision library.
-3. `Website Construction`: Building a membership website with Flask, a clean and efficient Python web framework.
-4. `Data Storage`: Using SQLite for data storage, a lightweight relational database management system.
-5. `Real-Time Notification`: Integrating with Linebot, a popular communication software in Taiwan, allows for real-time notifications.
+1. `Facial Feature Extraction`: Utilizing `dlib` to extract facial features, which is an advanced facial recognition library.
+2. `Image Processing`: Using `OpenCV` for image processing, which is a powerful open-source computer vision library.
+3. `Website Construction`: Building a membership website with `Flask`, a clean and efficient Python web framework.
+4. `Data Storage`: Using `SQLite` for data storage, a lightweight relational database management system.
+5. `Real-Time Notification`: Integrating with `Linebot`, a popular communication software in Taiwan, allows for real-time notifications.
 
 * Data Management: Actions such as querying, adding, and deleting records can be performed on the Linebot, enhancing the system's controllability and convenience.
 
